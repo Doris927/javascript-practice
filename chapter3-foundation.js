@@ -26,7 +26,39 @@
 
  /**
   * 3.4.2 undefined
+  * 
   */
  {
-     
+     let message;
+     console.log(message===undefined); //变量声明后没有赋值，则为undefined
+     console.log(typeof age ); //对于尚未声明的变量，只能执行typeof操作，其他操作会报错
+     //console.log(age); //对于尚未声明的变量，只能执行typeof操作，其他操作会报错
  }
+
+
+ /**
+  * 3.4.3 Null类型
+  */
+ {
+   let car = null;
+   console.log("null", typeof car); // object
+   console.log(null == undefined); // true
+   console.log(null === undefined); //false
+ }
+
+/**
+ * 3.4.4 Boolean类型
+*/
+{
+  let message = "hello world";
+  console.log(Boolean(message)); //非空字符串返回true
+  console.log(Boolean(null));  //除了null的Object都返回true
+}
+
+/**
+ * 3.4.5 Number类型
+ */
+{
+  let number = 070;//八进制
+  console.log('八进制:', number);
+}

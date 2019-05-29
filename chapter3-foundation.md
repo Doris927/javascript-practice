@@ -27,4 +27,5 @@
 - "object"—— 如果这个 值 是 对象 或 null； 
 - "function"—— 如果这个 值 是 函数。
 ## Undefined类型
+
     
